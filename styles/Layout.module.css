@@ -1,0 +1,8 @@
+.container{
+     height: 100vh
+}
+
+.container__children{
+   max-width:1400px;
+  margin :0 auto;
+}

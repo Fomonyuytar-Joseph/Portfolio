@@ -1,0 +1,48 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap:30px;
+  max-width:1400px;
+  margin :0 auto;
+  padding: 5px 5px;
+  /* background: #fff; */
+  align-items: center;
+}
+
+.grid h1{
+    grid-column: span 6;
+    color:#e1645b
+
+}
+
+.grid nav{
+    grid-column: span 6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.grid nav a{
+    color:black;
+    margin-left:10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.grid nav a:hover{
+  border-bottom: 3px solid #e1645b;
+
+}
+
+.grid__button{
+    color: white;
+    background-color: #e1645b;
+    border: none;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
