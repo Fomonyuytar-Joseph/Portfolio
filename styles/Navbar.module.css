@@ -30,10 +30,10 @@
     font-weight: bold;
 
 }
-.grid nav a:hover{
+/* .grid nav a:hover{
   border-bottom: 3px solid #e1645b;
 
-}
+} */
 
 .grid__button{
     color: white;
@@ -44,5 +44,13 @@
     font-weight: bold;
 }
 
+.active{
+   border-bottom: 3px solid #e1645b;
+
+}
+
+.nonActive{
+  border: none;
+}
 
 
