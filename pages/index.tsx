@@ -3,7 +3,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Button from "../components/Button";
 import styles from "../styles/Home.module.css";
-
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillLinkedin,
+  AiFillFacebook,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { socialLogos } from "../data/socialIcons";
 const Home: NextPage = () => {
   return (
     <div className={styles.grid}>
@@ -28,10 +35,27 @@ const Home: NextPage = () => {
         </p>
       </div>
       <div className={styles.grid__button}>
-       <Button text="See More About Me"/>
+        <Button text="See More About Me" />
       </div>
 
-     
+      <div className={styles.grid__socialIcons}>
+        <a href="https://twitter.com/FJoseph_dev">
+          <AiOutlineTwitter size={25} color={"#423C3C"} />
+        </a>
+        <a href="https://twitter.com/FJoseph_dev">
+          <AiFillLinkedin size={25} color={"#423C3C"} />
+        </a>
+        <a href="https://github.com/Fomonyuytar-Joseph">
+          <AiFillGithub size={25} color={"#423C3C"} />
+        </a>
+        <a href="https://twitter.com/FJoseph_dev">
+          <AiFillInstagram size={25} color={"#423C3C"} />
+        </a>
+
+        <a href="https://twitter.com/FJoseph_dev">
+          <AiFillFacebook size={25} color={"#423C3C"} />
+        </a>
+      </div>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 .container{
-     height: 100vh
+     max-height: 100vh
 }
 
 .container__children{
    max-width:1400px;
   margin :0 auto;
+  padding: 5px 40px;
 }
