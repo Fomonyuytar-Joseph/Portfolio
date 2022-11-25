@@ -1,21 +1,21 @@
-export const socialLogos =[
-    {
-        name: 'AiOutlineTwitter',
-        link:'https://twitter.com/FJoseph_dev'
-    },
-    {
-        name:"AiFillGithub",
-        link:"https://github.com/Fomonyuytar-Joseph"
-    },{
-        name:"AiFillLinkedin",
-        link:"https://github.com/Fomonyuytar-Joseph"
-    }
-    ,{
-        name:"AiFillInstagram",
-        link:"https://github.com/Fomonyuytar-Joseph"
-    }
-    ,{
-        name:"AiFillFacebook",
-        link:"https://github.com/Fomonyuytar-Joseph"
-    }
+export const webData:string[] =[
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "NextJS",
+    "Bootsrap",
+    "TailwindCSS",
+    "Material UI"
+   
+]
+
+export const techData:string[]=[
+    "Redux",
+    "Redux ToolKit",
+    "Git",
+    "SQL Basics",
+    "Firebase",
+    "NodeJS"
 ]

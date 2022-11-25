@@ -33,7 +33,7 @@
 
 .container__skill{
        grid-column: span 12;
-       grid-row :1 /span 2;
+       grid-row :1 /span 1;
        display: flex;
     justify-content: center;
 }
@@ -45,4 +45,38 @@
 
 .heading{
     border-bottom: 3px solid #E1645B;
+    width: 50px;
+}
+.Mobileheading{
+    border-bottom: 3px solid #E1645B;
+    width: 64px;
+}
+.techeading{
+    border-bottom: 3px solid #E1645B;
+    width: 128px;
+}
+
+.myWebSkills{
+    grid-column: span 12;
+    grid-row:2/span 3;
+    margin-top: -10px;
+}
+
+.myMobileSkills{
+    grid-column: span 12;
+    grid-row: 7/span 2;
+    margin-top: -10px;
+}
+
+.myTechnologies{
+    grid-column: span 12;
+    grid-row:9/span 2;
+    margin-top: 5px;
+}
+.makeFlex{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 20px;
+
+
 }

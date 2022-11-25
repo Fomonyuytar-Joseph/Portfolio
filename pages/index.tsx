@@ -10,7 +10,7 @@ import {
   AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
-import { socialLogos } from "../data/socialIcons";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.grid}>
