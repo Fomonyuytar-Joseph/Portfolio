@@ -1,0 +1,26 @@
+.position{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    }
+
+ .postionDetails{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    width: 550px;
+    height: 200px;
+    margin-left:40px;
+    gap:10px
+
+ } 
+ 
+ .positionIcon{
+    grid-column: 1/span 1;
+    grid-row: span 1;
+   }
+
+   .postionText{
+    grid-column: 2/span 12 ;
+    
+   }

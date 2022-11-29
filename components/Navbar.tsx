@@ -12,15 +12,37 @@ const Navbar = () => {
       <h1>FJ</h1>
 
       <nav>
-        <Link href="/" className={currentRoute === "/" ? styles.active : styles.nonActive}>
+        <Link
+          href="/"
+          className={currentRoute === "/" ? styles.active : styles.nonActive}
+        >
           Home
         </Link>
-        <Link href="/about" className={currentRoute === "/about" ? styles.active : styles.nonActive}>
+        <Link
+          href="/about"
+          className={
+            currentRoute === "/about" ? styles.active : styles.nonActive
+          }
+        >
           About
         </Link>
-        <Link href="">Experience</Link>
+        <Link
+          href="/experience"
+          className={
+            currentRoute === "/experience" ? styles.active : styles.nonActive
+          }
+        >
+          Experience
+        </Link>
         <Link href="">Projects</Link>
-        <Link href="">Contact</Link>
+        <Link
+          href="/contact"
+          className={
+            currentRoute === "/contact" ? styles.active : styles.nonActive
+          }
+        >
+          Contact
+        </Link>
         <button className={styles.grid__button}>Resume</button>
       </nav>
     </header>
