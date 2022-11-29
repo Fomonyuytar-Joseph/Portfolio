@@ -1,0 +1,25 @@
+.Container{
+    margin-top: -30px;
+}
+
+
+
+.MeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.reachOut{
+    max-width: 60%;
+
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+}

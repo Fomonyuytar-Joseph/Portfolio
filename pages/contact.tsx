@@ -1,17 +1,19 @@
 import React from "react";
+import Button from "../components/Button";
 import InputField from "../components/InputField";
 import MessageField from "../components/MessageField";
+import styles from "../styles/Contact.module.css"
 
 const Contact = () => {
   return (
-    <div>
-      <div>
-        <h1>Contact Me</h1>
+    <div className={styles.Container}>
+      <div className={styles.MeContainer}>
+        <h1 style={{margin:0,padding:0}}>Contact Me</h1>
         <p>
-          Get in touch with me directly <span style={{ color: "#e1645b" }}>josephneymar33@gmail.com</span>
+          Get in touch with me directly <span style={{ color: "#e1645b" ,fontWeight:"bold"}}>josephneymar33@gmail.com</span>
         </p>
 
-        <p>
+        <p className={styles.reachOut}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
           nesciunt magnam debitis? Voluptate, itaque id. Praesentium, molestiae
           soluta ratione illum eligendi nulla repellendus, earum veniam et
@@ -19,10 +21,11 @@ const Contact = () => {
         </p>
       </div>
 
-      <div>
+      <div className={styles.inputContainer} >
         <InputField placeholderText="Name"/>
         <InputField placeholderText="Email"/>
         <MessageField/>
+        <Button text="Contact Me"/>
       </div>
     </div>
   );

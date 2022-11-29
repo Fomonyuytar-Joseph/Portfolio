@@ -34,7 +34,14 @@ const Navbar = () => {
         >
           Experience
         </Link>
-        <Link href="">Projects</Link>
+        <Link
+          href="/projects"
+          className={
+            currentRoute === "/projects" ? styles.active : styles.nonActive
+          }
+        >
+          Projects
+        </Link>
         <Link
           href="/contact"
           className={
