@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className={styles.grid__intro}>
-        <p>
+        <p style={{marginBottom:"50px"}}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nam
           delectus explicabo quisquam minima nihil quod ab optio sequi corrupti.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum

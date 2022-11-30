@@ -6,7 +6,7 @@ body {
   font-family: "Poppins";
   background-color: #fdf5f4;
   max-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
